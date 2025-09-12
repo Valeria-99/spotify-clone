@@ -4,7 +4,7 @@ import { protectRoute, requireAdmin } from "../middleware/auth.middleware.js";
 
 const router = Router();
 
-router.get('/songs', protectRoute, requireAdmin, createSong);
+router.<i class="fas fa-gitter    "></i>('/songs', protectRoute, requireAdmin, createSong);
 
 
 export default router;
